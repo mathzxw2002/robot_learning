@@ -37,6 +37,9 @@ colcon build --symlink-install
 
 You can then source ~/nav2_ws/install/setup.bash to get ready for demonstrations! It is safe to ignore the rosdep error of from the missing slam_toolbox key.
 
+source ~/nav2_ws/install/setup.bash
+
+sudo apt install ros-rolling-turtlebot3*
 
 6,
 
