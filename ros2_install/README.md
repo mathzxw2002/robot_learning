@@ -41,6 +41,11 @@ source ~/nav2_ws/install/setup.bash
 
 sudo apt install ros-rolling-turtlebot3*
 
+export TURTLEBOT3_MODEL=waffle
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/rolling/share/turtlebot3_gazebo/models
+
+ros2 launch nav2_bringup tb3_simulation_launch.py
+
 6,
 
 
