@@ -19,6 +19,11 @@ https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debs.html
 sudo rosdep init
 
 rosdep update
+
+pip3 install catkin_pkg empy lark-parser
+pip3 install numpy
+
+
     
 Once your ROS2 environment is setup, clone the repo and build the workspace:
 
@@ -33,3 +38,7 @@ You can then source ~/nav2_ws/install/setup.bash to get ready for demonstrations
 
 
 6,
+
+
+
+
