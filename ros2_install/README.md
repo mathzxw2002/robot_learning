@@ -21,6 +21,7 @@ sudo rosdep init
 rosdep update
 
 pip3 install catkin_pkg empy lark-parser
+
 pip3 install numpy
 
 
