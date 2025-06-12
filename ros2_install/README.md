@@ -13,3 +13,7 @@ https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debs.html
 3, source /opt/ros/rolling/setup.bash
 
 4, https://docs.ros.org/en/rolling/Tutorials.html
+
+5, install nav2
+
+6,
