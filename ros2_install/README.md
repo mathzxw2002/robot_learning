@@ -14,6 +14,10 @@ https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debs.html
 
 4, https://docs.ros.org/en/rolling/Tutorials.html
 
+5, slam_toolbox
+
+git clone -b <ros2-distro>-devel git@github.com:stevemacenski/slam_toolbox.git
+
 5, install gazebo from source
 
 
