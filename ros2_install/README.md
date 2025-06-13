@@ -14,7 +14,11 @@ https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debs.html
 
 4, https://docs.ros.org/en/rolling/Tutorials.html
 
-5, install nav2 from source
+5, install gazebo from source
+
+
+
+6, install nav2 from source
 
 sudo rosdep init
 
