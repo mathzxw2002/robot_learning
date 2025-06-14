@@ -1,3 +1,5 @@
+0, prepare a clean ubuntu
+
 ros2 install
 (https://www.youtube.com/watch?v=HJAE5Pk8Nyw&ab_channel=KevinWood%7CRobotics%26AI)
 
@@ -20,6 +22,7 @@ git clone -b <ros2-distro>-devel git@github.com:stevemacenski/slam_toolbox.git
 
 5, install gazebo from source
 
+https://gazebosim.org/docs/latest/install_ubuntu_src/
 
 
 6, install nav2 from source
