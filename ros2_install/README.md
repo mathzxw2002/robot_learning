@@ -123,6 +123,8 @@ export TURTLEBOT3_MODEL=waffle
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/rolling/share/turtlebot3_gazebo/models
 ros2 launch nav2_bringup tb3_simulation_launch.py
 ```
+禁用 GPU 硬件加速
+export LIBGL_ALWAYS_SOFTWARE=1
 
 5, slam_toolbox
 
