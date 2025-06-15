@@ -1,4 +1,32 @@
+1, Install and manage ubuntu on WSL2
+
+wsl --list --online
+
+
+列出当前安装的 WSL 分发版
+wsl --list --verbose
+# 输出示例:
+# NAME            STATE           VERSION
+# Ubuntu-20.04    Running         2
+# Ubuntu-22.04    Stopped         2
+
+停止目标分发版
+在注销前，需要先停止运行中的分发版：
+wsl --terminate <分发版名称>
+# 例如: wsl --terminate Ubuntu-20.04
+
+注销分发版
+使用以下命令彻底删除分发版：
+
+wsl --unregister <分发版名称>
+# 例如: wsl --unregister Ubuntu-20.04
+
+wsl --install Ubuntu
+
+
 0, prepare a clean ubuntu
+
+wsl 
 
 sudo vim /etc/apt/sources.list.d/ubuntu.sources
 
@@ -23,9 +51,7 @@ https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debs.html
 
 4, https://docs.ros.org/en/rolling/Tutorials.html
 
-5, slam_toolbox
 
-git clone -b <ros2-distro>-devel git@github.com:stevemacenski/slam_toolbox.git
 
 5, install gazebo from source
 
@@ -69,7 +95,16 @@ export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/rolling/share/turtlebot3_ga
 
 ros2 launch nav2_bringup tb3_simulation_launch.py
 
-6,
+5, slam_toolbox
+
+mkdir -p ~/slam_toolbox_ws/src
+
+cd ~/slam_toolbox_ws
+
+git clone https://github.com/SteveMacenski/slam_toolbox
+
+
+
 
 
 
