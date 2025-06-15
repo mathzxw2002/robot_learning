@@ -63,6 +63,11 @@ sudo apt install ros-rolling-desktop
 # Setup environment
 source /opt/ros/rolling/setup.bash
 
+# Install turtlesim for demo
+sudo apt update
+sudo apt install ros-rolling-turtlesim
+ros2 run turtlesim turtlesim_node
+
 ```
 
 Try some examples
