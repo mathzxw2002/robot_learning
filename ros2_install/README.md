@@ -128,13 +128,30 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 5, slam_toolbox
 
+install message_filter first, which requires version 7.1.1
+
+```
+mkdir -p ~/message_filters_ws/src
+cd ~/message_filters_ws/src
+git clone https://github.com/ros2/message_filters.git -b kilted
+colcon build --packages-select message_filters --cmake-args -DCMAKE_BUILD_TYPE=Release --allow-overriding message_filters
+
+sudo cp -rf ~/message_filters_ws/install/message_filters/include/* /opt/ros/rolling/include/
+sudo cp -rf ~/message_filters_ws/install/message_filters/lib/*.so /opt/ros/rolling/lib/
+sudo cp -rf ~/message_filters_ws/install/message_filters/share/message_filters/* /opt/ros/rolling/share/message_filters
+```
+
+
+```
 mkdir -p ~/slam_toolbox_ws/src
-
-cd ~/slam_toolbox_ws
-
+cd ~/slam_toolbox_ws/src
 git clone https://github.com/SteveMacenski/slam_toolbox
 
+colcon build --packages-select slam_toolbox --cmake-args -DCMAKE_BUILD_TYPE=Release
 
+source ~/slam_toolbox_ws/install/setup.bash
+
+```
 
 
 
