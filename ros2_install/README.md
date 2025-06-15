@@ -68,6 +68,9 @@ sudo apt update
 sudo apt install ros-rolling-turtlesim
 ros2 run turtlesim turtlesim_node
 
+# Open a new terminal and source ROS 2 again. Now you will run a new node to control the turtle in the first node:
+ros2 run turtlesim turtle_teleop_key
+
 ```
 
 Try some examples
