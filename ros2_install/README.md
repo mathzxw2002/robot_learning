@@ -1,32 +1,24 @@
-1, Install and manage ubuntu on WSL2
+# 1, Install and manage ubuntu on WSL2
+
+(https://documentation.ubuntu.com/wsl/stable/howto/install-ubuntu-wsl2/)
 
 wsl --list --online
 
-
 列出当前安装的 WSL 分发版
+
 wsl --list --verbose
-# 输出示例:
-# NAME            STATE           VERSION
-# Ubuntu-20.04    Running         2
-# Ubuntu-22.04    Stopped         2
 
-停止目标分发版
-在注销前，需要先停止运行中的分发版：
+停止目标分发版, 在注销前，需要先停止运行中的分发版：
 wsl --terminate <分发版名称>
-# 例如: wsl --terminate Ubuntu-20.04
 
-注销分发版
-使用以下命令彻底删除分发版：
+注销分发版, 使用以下命令彻底删除分发版：
 
 wsl --unregister <分发版名称>
-# 例如: wsl --unregister Ubuntu-20.04
 
-wsl --install Ubuntu
+wsl --install <分发版名称>
 
-
-0, prepare a clean ubuntu
-
-wsl 
+# 2, revise source list
+sudo chmod 777 /etc/apt/sources.list.d/ubuntu.sources
 
 sudo vim /etc/apt/sources.list.d/ubuntu.sources
 
@@ -35,17 +27,55 @@ URIs: http://mirrors.aliyun.com/ubuntu/
 sudo apt update
 
 
-ros2 install
+# 3, ros2 install
 (https://www.youtube.com/watch?v=HJAE5Pk8Nyw&ab_channel=KevinWood%7CRobotics%26AI)
 
-1, install ubuntu on wsl2
-
-https://documentation.ubuntu.com/wsl/stable/howto/install-ubuntu-wsl2/
-
-2, install ros2
 
 https://docs.ros.org/en/rolling/
 https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debs.html
+
+```
+# Set locale
+locale  # check for UTF-8
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+locale  # verify settings
+
+# Enable required repositories
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+
+sudo apt update && sudo apt install curl -y
+export ROS_APT_SOURCE_VERSION=$(curl -s https://api.github.com/repos/ros-infrastructure/ros-apt-source/releases/latest | grep -F "tag_name" | awk -F\" '{print $4}')
+curl -L -o /tmp/ros2-apt-source.deb "https://github.com/ros-infrastructure/ros-apt-source/releases/download/${ROS_APT_SOURCE_VERSION}/ros2-apt-source_${ROS_APT_SOURCE_VERSION}.$(. /etc/os-release && echo $VERSION_CODENAME)_all.deb" # If using Ubuntu derivates use $UBUNTU_CODENAME
+sudo apt install /tmp/ros2-apt-source.deb
+
+# Install development tools (optional)
+sudo apt update && sudo apt install ros-dev-tools
+
+# Install ROS 2
+sudo apt update
+sudo apt upgrade
+sudo apt install ros-rolling-desktop
+
+# Setup environment
+source /opt/ros/rolling/setup.bash
+
+```
+
+Try some examples
+```
+In one terminal, source the setup file and then run a C++ talker:
+source /opt/ros/rolling/setup.bash
+
+In another terminal source the setup file and then run a Python listener:
+ros2 run demo_nodes_cpp talker
+
+source /opt/ros/rolling/setup.bash
+
+```
 
 3, source /opt/ros/rolling/setup.bash
 
