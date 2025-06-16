@@ -92,12 +92,6 @@ source /opt/ros/rolling/setup.bash
 4, https://docs.ros.org/en/rolling/Tutorials.html
 
 
-
-5, install gazebo from source
-
-https://gazebosim.org/docs/latest/install_ubuntu_src/
-
-
 # 6, install nav2 from source
 
 ```
