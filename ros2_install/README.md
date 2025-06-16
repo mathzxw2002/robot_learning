@@ -7,21 +7,21 @@ run wsl --list --online to see an output with all available distros and versions
 wsl --list --online
 ```
 
-Use wsl -l -v to see all your currently installed distros and the version of WSL that they are using:
+use wsl -l -v to see all your currently installed distros and the version of WSL that they are using:
 ```
 wsl --list --verbose
 ```
 
-停止目标分发版, 在注销前，需要先停止运行中的分发版：
-wsl --terminate <分发版名称>
-
-注销分发版, 使用以下命令彻底删除分发版：
-
-wsl --unregister <分发版名称>
-
-install WSL from the command line
+use wsl --terminate xx to stop a system, and wsl --unregister xx to delete a system
 ```
-wsl --install <分发版名称>
+wsl --terminate xxx
+
+wsl --unregister xxx
+```
+
+use wsl --install xx to install WSL system from the command line
+```
+wsl --install xxx
 ```
 It is recommended to reboot your machine after this initial installation to complete the setup.
 
