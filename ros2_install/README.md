@@ -96,7 +96,7 @@ source /opt/ros/rolling/setup.bash
 4, https://docs.ros.org/en/rolling/Tutorials.html
 
 
-# 6, install nav2 from source
+# 4, install nav2 from source
 
 ```
 sudo rosdep init
