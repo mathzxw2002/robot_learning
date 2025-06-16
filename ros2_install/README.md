@@ -2,11 +2,15 @@
 
 (https://documentation.ubuntu.com/wsl/stable/howto/install-ubuntu-wsl2/)
 
+run wsl --list --online to see an output with all available distros and versions:
+```
 wsl --list --online
+```
 
-列出当前安装的 WSL 分发版
-
+Use wsl -l -v to see all your currently installed distros and the version of WSL that they are using:
+```
 wsl --list --verbose
+```
 
 停止目标分发版, 在注销前，需要先停止运行中的分发版：
 wsl --terminate <分发版名称>
