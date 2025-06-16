@@ -15,7 +15,11 @@ wsl --terminate <分发版名称>
 
 wsl --unregister <分发版名称>
 
+install WSL from the command line
+```
 wsl --install <分发版名称>
+```
+It is recommended to reboot your machine after this initial installation to complete the setup.
 
 # 2, revise source list
 sudo chmod 777 /etc/apt/sources.list.d/ubuntu.sources
