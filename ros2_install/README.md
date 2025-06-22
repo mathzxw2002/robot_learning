@@ -156,6 +156,25 @@ source ~/slam_toolbox_ws/install/setup.bash
 ```
 
 
+# 6, bttree
 
+```
+sudo apt update
+sudo apt install -y cmake g++ git libxml2-dev
+
+
+mkdir -p ~/bt_ws/src
+cd ~/bt_ws/src
+git clone https://github.com/BehaviorTree/BehaviorTree.CPP.git
+
+cd ~/bt_ws/src/BehaviorTree.CPP
+mkdir build && cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON
+make -j$(nproc)
+sudo make install
+
+
+
+```
 
 
