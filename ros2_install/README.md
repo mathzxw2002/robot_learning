@@ -172,6 +172,11 @@ mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON
 make -j$(nproc)
 sudo make install
+```
+
+# 7, robot-localization
+
+sudo apt-get install ros-rolling-robot-localization
 
 
 
