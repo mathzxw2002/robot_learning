@@ -180,6 +180,3 @@ sudo apt-get install ros-rolling-robot-localization
 
 
 
-```
-
-
