@@ -66,14 +66,14 @@ sudo apt update && sudo apt install ros-dev-tools
 # Install ROS 2
 sudo apt update
 sudo apt upgrade
-sudo apt install ros-rolling-desktop
+sudo apt install ros-jazzy-desktop
 
 # Setup environment
-source /opt/ros/rolling/setup.bash
+source /opt/ros/jazzy/setup.bash
 
 # Install turtlesim for demo
 sudo apt update
-sudo apt install ros-rolling-turtlesim
+sudo apt install ros-jazzy-turtlesim
 ros2 run turtlesim turtlesim_node
 
 # Open a new terminal and source ROS 2 again. Now you will run a new node to control the turtle in the first node:
