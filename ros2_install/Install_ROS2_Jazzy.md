@@ -96,27 +96,11 @@ source /opt/ros/rolling/setup.bash
 4, https://docs.ros.org/en/rolling/Tutorials.html
 
 
-# 4, install nav2 from source
+# 4, install nav2 
 
 ```
-sudo rosdep init
-rosdep update
+sudo apt install ros-jazzy-navigation2 ros-jazzy-nav2-bringup
 
-pip3 install catkin_pkg empy lark-parser
-pip3 install numpy
-
-
-    
-# Once your ROS2 environment is setup, clone the repo and build the workspace:
-
-source /opt/ros/rolling/setup.bash
-mkdir -p ~/nav2_ws/src && cd ~/nav2_ws
-git clone https://github.com/ros-navigation/navigation2.git --branch main ./src/navigation2
-git clone https://github.com/ros-navigation/nav2_minimal_turtlebot_simulation.git --branch main ./src/nav2_minimal_turtlebot_simulation
-rosdep install -r -y --from-paths ./src --ignore-src 
-colcon build --symlink-install
-# You can then source ~/nav2_ws/install/setup.bash to get ready for demonstrations! It is safe to ignore the rosdep error of from the missing slam_toolbox key.
-source ~/nav2_ws/install/setup.bash
 ```
 
 ```
@@ -130,17 +114,9 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 # 5, slam_toolbox
 
-install message_filter first, which requires version 7.1.1
-
 ```
-mkdir -p ~/message_filters_ws/src
-cd ~/message_filters_ws/src
-git clone https://github.com/ros2/message_filters.git -b kilted
-colcon build --packages-select message_filters --cmake-args -DCMAKE_BUILD_TYPE=Release --allow-overriding message_filters
+sudo apt install ros-$ROS_DISTRO-slam-toolbox
 
-sudo cp -rf ~/message_filters_ws/install/message_filters/include/* /opt/ros/rolling/include/
-sudo cp -rf ~/message_filters_ws/install/message_filters/lib/*.so /opt/ros/rolling/lib/
-sudo cp -rf ~/message_filters_ws/install/message_filters/share/message_filters/* /opt/ros/rolling/share/message_filters
 ```
 
 
@@ -176,8 +152,10 @@ sudo make install
 
 # 7, robot-localization
 
-sudo apt-get install ros-rolling-robot-localization
+```
+sudo apt-get install ros-jazzy-robot-localization
 
+```
 
 
 
