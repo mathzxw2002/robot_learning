@@ -101,7 +101,7 @@ vim /home/china/lerobot/src/lerobot/robots/lekiwi/config_lekiwi.py
 # 建议将上面这一行写入 ~/.bashrc。若没有写入，则每次下载时都需要先输入该命令
 export HF_ENDPOINT=https://hf-mirror.com
 
-
+CUDA_VISIBLE_DEVICES=""
 
 
 
