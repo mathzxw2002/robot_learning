@@ -49,6 +49,13 @@ git clone https://github.com/huggingface/lerobot.git
 cd lerobot
 
 
+pip install -e .
+
+pip install -e ".[aloha]" # or "[pusht]" for example
+
+pip install -e ".[feetech]" # or "[dynamixel]" for example
+
+
 ```
 
 ![screenshot-20250709-113309](https://github.com/user-attachments/assets/37d84162-9c6a-4239-bf1e-d1b1ce5e49f7)
