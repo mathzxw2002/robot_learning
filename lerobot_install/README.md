@@ -24,3 +24,16 @@ usbipd attach --busid 2-2 --wsl ROS2Jazzy
 ```
 
 https://huggingface.co/docs/lerobot/lekiwi
+
+
+# Install LeRobot on Pi 
+
+```
+ssh 192.168.0.232
+
+
+git clone https://github.com/huggingface/lerobot.git
+cd lerobot
+
+
+```
