@@ -42,10 +42,10 @@ https://gitee.com/ftservo/fddebug
 
 ```
 ssh 192.168.0.232
-
+```
 ![screenshot-20250709-113309](https://github.com/user-attachments/assets/37d84162-9c6a-4239-bf1e-d1b1ce5e49f7)
 
-
+```
 git clone https://github.com/huggingface/lerobot.git
 cd lerobot
 
