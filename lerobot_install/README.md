@@ -85,6 +85,9 @@ Then on your laptop, also run conda activate lerobot and run the API example, ma
 Copied
 python examples/lekiwi/teleoperate.py
 
+/home/china/lerobot/examples/lekiwi/teleoperate.py
+![image](https://github.com/user-attachments/assets/c93cb1c6-aef4-477c-ab5a-0893141f4ae5)
+
 
 # Bugs
 python -m lerobot.calibrate --robot.type=lekiwi --robot.id=my_awesome_kiwi
