@@ -14,14 +14,15 @@ usbipd --version
 
 ```
 
-python -m lerobot.find_port
-
 
 ```
 usbipd list
 usbipd bind --busid 2-2
 # 语法：usbipd attach --busid <BUSID> --wsl-distribution <发行版名称>  
 usbipd attach --busid 2-2 --wsl ROS2Jazzy
+
+python -m lerobot.find_port
+
 
 ```
 
