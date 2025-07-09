@@ -14,6 +14,8 @@ usbipd --version
 
 ```
 
+python -m lerobot.find_port
+
 
 ```
 usbipd list
