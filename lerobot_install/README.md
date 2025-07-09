@@ -23,6 +23,7 @@ usbipd attach --busid 2-2 --wsl ROS2Jazzy
 
 python -m lerobot.find_port
 
+sudo chmod 666 /dev/ttyACM0
 
 ```
 
