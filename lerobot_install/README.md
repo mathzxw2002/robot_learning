@@ -89,6 +89,8 @@ python examples/lekiwi/teleoperate.py
 ![image](https://github.com/user-attachments/assets/c93cb1c6-aef4-477c-ab5a-0893141f4ae5)
 
 
+export LIBGL_ALWAYS_SOFTWARE=1
+
 # Bugs
 python -m lerobot.calibrate --robot.type=lekiwi --robot.id=my_awesome_kiwi
 ![screenshot-20250709-115522](https://github.com/user-attachments/assets/3d2ad2f6-916a-4e67-bb63-889994c8c3a4)
