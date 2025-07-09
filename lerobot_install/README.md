@@ -29,6 +29,15 @@ python -m lerobot.find_port
 https://huggingface.co/docs/lerobot/lekiwi
 
 
+# Install LeRobot locally
+
+Configure motors
+
+https://gitee.com/ftservo/fddebug
+
+
+
+
 # Install LeRobot on Pi 
 
 ```
