@@ -85,3 +85,12 @@ Copied
 python examples/lekiwi/teleoperate.py
 
 
+# Bugs
+python -m lerobot.calibrate --robot.type=lekiwi --robot.id=my_awesome_kiwi
+![screenshot-20250709-115522](https://github.com/user-attachments/assets/3d2ad2f6-916a-4e67-bb63-889994c8c3a4)
+vim /home/china/lerobot/src/lerobot/robots/lekiwi/config_lekiwi.py
+![image](https://github.com/user-attachments/assets/cbc00e78-9db2-4e96-81ed-07c73ee6185a)
+
+
+
+
