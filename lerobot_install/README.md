@@ -69,7 +69,7 @@ python -m lerobot.calibrate --robot.type=lekiwi --robot.id=my_awesome_kiwi # <- 
 
 Calibrate leader arm
 
-python -m lerobot.calibrate --teleop.type=so100_leader --teleop.port=/dev/tty --teleop.id=my_awesome_leader_arm # <- Give the robot a unique name
+python -m lerobot.calibrate --teleop.type=so100_leader --teleop.port=/dev/ttyACM0 --teleop.id=my_awesome_leader_arm # <- Give the robot a unique name
 
 
 
