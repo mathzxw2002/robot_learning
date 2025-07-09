@@ -61,20 +61,15 @@ pip install -e ".[feetech]" # or "[dynamixel]" for example
 
 
 # Calibration
-
+```
 Calibrate follower arm (on mobile base)
 
-python -m lerobot.calibrate \
-    --robot.type=lekiwi \
-    --robot.id=my_awesome_kiwi # <- Give the robot a unique name
+python -m lerobot.calibrate --robot.type=lekiwi --robot.id=my_awesome_kiwi # <- Give the robot a unique name
 
 
 Calibrate leader arm
 
-python -m lerobot.calibrate \
-    --teleop.type=so100_leader \
-    --teleop.port=/dev/tty.usbmodem58760431551 \ # <- The port of your robot
-    --teleop.id=my_awesome_leader_arm # <- Give the robot a unique name
+python -m lerobot.calibrate --teleop.type=so100_leader --teleop.port=/dev/tty --teleop.id=my_awesome_leader_arm # <- Give the robot a unique name
 
 
 
