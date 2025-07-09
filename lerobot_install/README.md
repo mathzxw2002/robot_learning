@@ -44,8 +44,42 @@ https://gitee.com/ftservo/fddebug
 ssh 192.168.0.232
 
 
+
 git clone https://github.com/huggingface/lerobot.git
 cd lerobot
 
 
 ```
+
+![screenshot-20250709-113309](https://github.com/user-attachments/assets/37d84162-9c6a-4239-bf1e-d1b1ce5e49f7)
+
+# Calibration
+
+Calibrate follower arm (on mobile base)
+
+python -m lerobot.calibrate \
+    --robot.type=lekiwi \
+    --robot.id=my_awesome_kiwi # <- Give the robot a unique name
+
+
+Calibrate leader arm
+
+python -m lerobot.calibrate \
+    --teleop.type=so100_leader \
+    --teleop.port=/dev/tty.usbmodem58760431551 \ # <- The port of your robot
+    --teleop.id=my_awesome_leader_arm # <- Give the robot a unique name
+
+
+
+Teleoperate LeKiwi
+
+To teleoperate, SSH into your Raspberry Pi, and run conda activate lerobot and this command:
+
+Copied
+python -m lerobot.robots.lekiwi.lekiwi_host --robot.id=my_awesome_kiwi
+Then on your laptop, also run conda activate lerobot and run the API example, make sure you set the correct remote_ip and port in examples/lekiwi/teleoperate.py.
+
+Copied
+python examples/lekiwi/teleoperate.py
+
+
