@@ -98,5 +98,10 @@ vim /home/china/lerobot/src/lerobot/robots/lekiwi/config_lekiwi.py
 ![image](https://github.com/user-attachments/assets/cbc00e78-9db2-4e96-81ed-07c73ee6185a)
 
 
+# 建议将上面这一行写入 ~/.bashrc。若没有写入，则每次下载时都需要先输入该命令
+export HF_ENDPOINT=https://hf-mirror.com
+
+
+
 
 
