@@ -130,6 +130,12 @@ export LIBGL_ALWAYS_SOFTWARE=1
 
 # Evaluate our policy on Lerobot
 
+To evaluate policy, SSH into your Raspberry Pi, and run conda activate lerobot and this command:
+
+```
+python -m lerobot.robots.lekiwi.lekiwi_host --robot.id=my_awesome_kiwi
+```
+
 To evaluate your policy run the evaluate.py API example, make sure to change remote_ip, port, model..
 
 ```
