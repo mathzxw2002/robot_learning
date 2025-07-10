@@ -12,16 +12,16 @@ winget install dorssel.usbipd-win
 
 # 检查版本（需 >= v0.5.0）
 usbipd --version  
-
-```
-
-
-```
 usbipd list
 usbipd bind --busid 2-2
 # 语法：usbipd attach --busid <BUSID> --wsl-distribution <发行版名称>  
 usbipd attach --busid 2-2 --wsl ROS2Jazzy
 
+```
+
+
+```
+cd lerobot
 python -m lerobot.find_port
 
 sudo chmod 666 /dev/ttyACM0
@@ -31,7 +31,59 @@ sudo chmod 666 /dev/ttyACM0
 https://huggingface.co/docs/lerobot/lekiwi
 
 
-# Install LeRobot locally
+# Install LeRobot locally on PC
+
+```
+# 1, Install and manage ubuntu on WSL2
+
+(https://documentation.ubuntu.com/wsl/stable/howto/install-ubuntu-wsl2/)
+
+run wsl --list --online to see an output with all available distros and versions:
+```
+wsl --list --online
+```
+
+use wsl -l -v to see all your currently installed distros and the version of WSL that they are using:
+```
+wsl --list --verbose
+```
+
+use wsl --terminate xx to stop a system, and wsl --unregister xx to delete a system
+```
+wsl --terminate xxx
+
+wsl --unregister xxx
+```
+
+use wsl --install xx to install WSL system from the command line
+```
+wsl --install xxx
+```
+It is recommended to reboot your machine after this initial installation to complete the setup.
+
+# 2, revise source list
+sudo chmod 777 /etc/apt/sources.list.d/ubuntu.sources
+
+sudo vim /etc/apt/sources.list.d/ubuntu.sources
+
+URIs: http://mirrors.aliyun.com/ubuntu/
+
+sudo apt update
+
+
+
+```
+
+```
+git clone https://github.com/huggingface/lerobot.git
+cd lerobot
+
+
+
+
+
+```
+
 
 Configure motors
 
