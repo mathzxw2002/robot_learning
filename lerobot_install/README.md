@@ -60,7 +60,7 @@ wsl --install xxx
 ```
 It is recommended to reboot your machine after this initial installation to complete the setup.
 
-# 2, revise source list
+## 2, revise source list
 sudo chmod 777 /etc/apt/sources.list.d/ubuntu.sources
 
 sudo vim /etc/apt/sources.list.d/ubuntu.sources
