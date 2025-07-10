@@ -128,6 +128,18 @@ python examples/lekiwi/teleoperate.py
 
 export LIBGL_ALWAYS_SOFTWARE=1
 
+# Evaluate our policy on Lerobot
+
+To evaluate your policy run the evaluate.py API example, make sure to change remote_ip, port, model..
+
+```
+
+python examples/lekiwi/evaluate.py
+
+```
+
+
+
 # Bugs
 python -m lerobot.calibrate --robot.type=lekiwi --robot.id=my_awesome_kiwi
 ![screenshot-20250709-115522](https://github.com/user-attachments/assets/3d2ad2f6-916a-4e67-bb63-889994c8c3a4)
