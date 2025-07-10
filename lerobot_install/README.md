@@ -68,7 +68,7 @@ usbipd attach --busid 2-2 --wsl ROS2Jazzy
 
 ```
 
-
+在WSL2 Ubuntu系统下，
 ```
 cd lerobot
 python -m lerobot.find_port
