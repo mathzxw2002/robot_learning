@@ -20,7 +20,6 @@ Then, revise source list,
 
 ```
 sudo chmod 777 /etc/apt/sources.list.d/ubuntu.sources
-
 sudo vim /etc/apt/sources.list.d/ubuntu.sources
 
 replace original source list with aliyun version, i.e. URIs: http://mirrors.aliyun.com/ubuntu/
@@ -28,7 +27,7 @@ replace original source list with aliyun version, i.e. URIs: http://mirrors.aliy
 sudo apt update
 ```
 
-## 3, Install lerobot on WSL2 Ubuntu
+## 2, Install lerobot on WSL2 Ubuntu
 ```
 git clone https://github.com/huggingface/lerobot.git
 cd lerobot
@@ -37,7 +36,7 @@ pip install -e .
 
 ```
 
-## 4, 在WSL2环境上，将USB连接到PC上
+## 3, 在WSL2环境上，将USB连接到PC上
 
 以管理员权限运行Windows PowerShell
 
