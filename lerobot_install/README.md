@@ -7,41 +7,26 @@ https://huggingface.co/docs/lerobot/lekiwi
 
 # Install LeRobot locally on PC
 
-## 1, Install and manage ubuntu on WSL2
+## 1, Install Ubuntu-24.04 on WSL2
 
-(https://documentation.ubuntu.com/wsl/stable/howto/install-ubuntu-wsl2/)
+(more details about WSL2 command. https://documentation.ubuntu.com/wsl/stable/howto/install-ubuntu-wsl2/)
 
-run wsl --list --online to see an output with all available distros and versions:
 ```
-wsl --list --online
-```
-
-use wsl -l -v to see all your currently installed distros and the version of WSL that they are using:
-```
-wsl --list --verbose
-```
-
-use wsl --terminate xx to stop a system, and wsl --unregister xx to delete a system
-```
-wsl --terminate xxx
-
-wsl --unregister xxx
-```
-
-use wsl --install xx to install WSL system from the command line
-```
-wsl --install xxx
+wsl --install -d Ubuntu-24.04 
 ```
 It is recommended to reboot your machine after this initial installation to complete the setup.
 
 ## 2, revise source list
+
+```
 sudo chmod 777 /etc/apt/sources.list.d/ubuntu.sources
 
 sudo vim /etc/apt/sources.list.d/ubuntu.sources
 
-URIs: http://mirrors.aliyun.com/ubuntu/
+replace original source list with aliyun version, i.e. URIs: http://mirrors.aliyun.com/ubuntu/
 
 sudo apt update
+```
 
 ## 3, Install lerobot on WSL2 Ubuntu
 ```
