@@ -33,8 +33,7 @@ https://huggingface.co/docs/lerobot/lekiwi
 
 # Install LeRobot locally on PC
 
-```
-# 1, Install and manage ubuntu on WSL2
+## 1, Install and manage ubuntu on WSL2
 
 (https://documentation.ubuntu.com/wsl/stable/howto/install-ubuntu-wsl2/)
 
