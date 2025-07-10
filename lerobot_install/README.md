@@ -50,7 +50,9 @@ usbipd --version
 usbipd list
 usbipd bind --busid 2-2
 # 语法：usbipd attach --busid <BUSID> --wsl-distribution <发行版名称>  
-usbipd attach --busid 2-2 --wsl ROS2Jazzy
+usbipd attach --busid 2-2 --wsl ROS2Jazz
+
+Lerobot
 
 ```
 
