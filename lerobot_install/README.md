@@ -43,14 +43,16 @@ URIs: http://mirrors.aliyun.com/ubuntu/
 
 sudo apt update
 
-```
-
+## 3, Install lerobot on WSL2 Ubuntu
 ```
 git clone https://github.com/huggingface/lerobot.git
 cd lerobot
 
+pip install -e .
 
-## 3, 在WSL2环境上，将USB连接到PC上
+```
+
+## 4, 在WSL2环境上，将USB连接到PC上
 
 以管理员权限运行Windows PowerShell
 
