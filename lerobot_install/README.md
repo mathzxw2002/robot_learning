@@ -50,9 +50,7 @@ git clone https://github.com/huggingface/lerobot.git
 cd lerobot
 
 
-```
-
-# 在WSL2环境上，将USB连接到PC上
+## 3, 在WSL2环境上，将USB连接到PC上
 
 以管理员权限运行Windows PowerShell
 
