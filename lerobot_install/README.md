@@ -111,28 +111,30 @@ pip install -e ".[feetech]" # or "[dynamixel]" for example
 
 
 # Calibration
-```
+
 Calibrate follower arm (on mobile base)
-
+```
 python -m lerobot.calibrate --robot.type=lekiwi --robot.id=my_awesome_kiwi # <- Give the robot a unique name
-
+```
 
 Calibrate leader arm
-
+```
 python -m lerobot.calibrate --teleop.type=so100_leader --teleop.port=/dev/ttyACM0 --teleop.id=my_awesome_leader_arm # <- Give the robot a unique name
-
+```
 
 
 Teleoperate LeKiwi
 
 To teleoperate, SSH into your Raspberry Pi, and run conda activate lerobot and this command:
 
-Copied
+```
 python -m lerobot.robots.lekiwi.lekiwi_host --robot.id=my_awesome_kiwi
+```
 Then on your laptop, also run conda activate lerobot and run the API example, make sure you set the correct remote_ip and port in examples/lekiwi/teleoperate.py.
 
-Copied
+```
 python examples/lekiwi/teleoperate.py
+```
 
 /home/china/lerobot/examples/lekiwi/teleoperate.py
 ![image](https://github.com/user-attachments/assets/c93cb1c6-aef4-477c-ab5a-0893141f4ae5)
