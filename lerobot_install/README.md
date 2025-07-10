@@ -80,7 +80,7 @@ sudo chmod 666 /dev/ttyACM0
 ```
 
 
-
+## 5, 配置Lekiwi舵机参数
 Configure motors
 
 https://gitee.com/ftservo/fddebug
