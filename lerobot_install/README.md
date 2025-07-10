@@ -16,7 +16,7 @@ wsl --install -d Ubuntu-24.04
 ```
 It is recommended to reboot your machine after this initial installation to complete the setup.
 
-## 2, revise source list
+Then, revise source list,
 
 ```
 sudo chmod 777 /etc/apt/sources.list.d/ubuntu.sources
