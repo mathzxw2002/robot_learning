@@ -12,7 +12,7 @@ https://huggingface.co/docs/lerobot/lekiwi
 (more details about WSL2 command. https://documentation.ubuntu.com/wsl/stable/howto/install-ubuntu-wsl2/)
 
 ```
-wsl --install -d Ubuntu-24.04 
+wsl --install -d Ubuntu-24.04 --name Lerobot
 ```
 It is recommended to reboot your machine after this initial installation to complete the setup.
 
