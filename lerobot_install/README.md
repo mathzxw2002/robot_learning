@@ -147,16 +147,51 @@ python examples/lekiwi/evaluate.py
 
 
 # Bugs
+## 1 
 python -m lerobot.calibrate --robot.type=lekiwi --robot.id=my_awesome_kiwi
 ![screenshot-20250709-115522](https://github.com/user-attachments/assets/3d2ad2f6-916a-4e67-bb63-889994c8c3a4)
 vim /home/china/lerobot/src/lerobot/robots/lekiwi/config_lekiwi.py
 ![image](https://github.com/user-attachments/assets/cbc00e78-9db2-4e96-81ed-07c73ee6185a)
 
 
-# 建议将上面这一行写入 ~/.bashrc。若没有写入，则每次下载时都需要先输入该命令
-export HF_ENDPOINT=https://hf-mirror.com
-
 CUDA_VISIBLE_DEVICES=""
+
+
+## 2 stats missing when using pretrained pi0 policy #694
+
+```
+Traceback (most recent call last):
+  File "/scratch/zf540/pi0/aqua-vla/experiments/envs/simpler/test_ckpts_in_simpler.py", line 222, in <module>
+    eval_simpler()
+  File "/scratch/zf540/pi0/aqua-vla/.venv/lib/python3.11/site-packages/draccus/argparsing.py", line 225, in wrapper_inner
+    response = fn(cfg, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/zf540/pi0/aqua-vla/experiments/envs/simpler/test_ckpts_in_simpler.py", line 174, in eval_simpler
+    action = policy.select_action(observation)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/zf540/pi0/aqua-vla/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/zf540/pi0/lerobot/lerobot/common/policies/pi0/modeling_pi0.py", line 276, in select_action
+    batch = self.normalize_inputs(batch)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/zf540/pi0/aqua-vla/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/zf540/pi0/aqua-vla/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/zf540/pi0/aqua-vla/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/zf540/pi0/lerobot/lerobot/common/policies/normalize.py", line 155, in forward
+    assert not torch.isinf(mean).any(), _no_stats_error_str("mean")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: `mean` is infinity. You should either initialize with `stats` as an argument, or use a pretrained model.
+
+```
+
+<img width="1406" height="755" alt="image" src="https://github.com/user-attachments/assets/eac92bd7-08df-498b-a515-dbd2131c3415" />
 
 
 
