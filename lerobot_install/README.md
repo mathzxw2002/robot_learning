@@ -111,7 +111,7 @@ python -m lerobot.calibrate --teleop.type=so100_leader --teleop.port=/dev/ttyACM
 
 
 <video width="800" controls>
-  <source src="?raw=true" type="video/mp4">
+  <source src="./calibrate_so101_2.mp4?raw=true" type="video/mp4">
   播放失败
 </video>
 
