@@ -109,8 +109,9 @@ python -m lerobot.calibrate --teleop.type=so100_leader --teleop.port=/dev/ttyACM
 ```
 
 
+
 <video width="800" controls>
-  <source src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/lerobot/calibrate_so101_2.mp4?raw=true" type="video/mp4">
+  <source src="?raw=true" type="video/mp4">
   播放失败
 </video>
 
