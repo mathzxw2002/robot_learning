@@ -115,10 +115,10 @@ python -m lerobot.calibrate --teleop.type=so100_leader --teleop.port=/dev/ttyACM
 
 ```
 
-<img width="1920" height="1700" alt="image" src="https://github.com/user-attachments/assets/13c5c5d8-d7c5-488f-881f-d5bca5b473ce" />
+<!--img width="1920" height="1700" alt="image" src="https://github.com/user-attachments/assets/13c5c5d8-d7c5-488f-881f-d5bca5b473ce" /-->
 
 
-<video width="800" controls>
+<video width="800" controls poster="https://github.com/user-attachments/assets/13c5c5d8-d7c5-488f-881f-d5bca5b473ce">
   <source src="https://github.com/mathzxw2002/robot_learning/blob/main/lerobot_install/calibrate_so101_2.mp4?raw=true" type="video/mp4">
   播放失败
 </video>
