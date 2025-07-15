@@ -159,6 +159,8 @@ CUDA_VISIBLE_DEVICES=""
 
 ## 2 stats missing when using pretrained pi0 policy #694
 
+https://github.com/huggingface/lerobot/issues/694
+
 ```
 Traceback (most recent call last):
   File "/scratch/zf540/pi0/aqua-vla/experiments/envs/simpler/test_ckpts_in_simpler.py", line 222, in <module>
