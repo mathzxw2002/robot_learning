@@ -108,6 +108,8 @@ Calibrate leader arm
 python -m lerobot.calibrate --teleop.type=so100_leader --teleop.port=/dev/ttyACM0 --teleop.id=my_awesome_leader_arm # <- Give the robot a unique name
 ```
 
+https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/lerobot/calibrate_so101_2.mp4
+
 
 Teleoperate LeKiwi
 
