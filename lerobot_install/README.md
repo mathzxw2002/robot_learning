@@ -124,6 +124,9 @@ python -m lerobot.calibrate --teleop.type=so100_leader --teleop.port=/dev/ttyACM
 
 product_video: 'https://github.com/mathzxw2002/robot_learning/blob/main/lerobot_install/calibrate_so101_2.mp4?raw=true'
 
+
+[点击观看视频](https://github.com/mathzxw2002/robot_learning/blob/main/lerobot_install/calibrate_so101_2.mp4)
+
 Teleoperate LeKiwi
 
 To teleoperate, SSH into your Raspberry Pi, and run conda activate lerobot and this command:
