@@ -122,7 +122,7 @@ python -m lerobot.calibrate --teleop.type=so100_leader --teleop.port=/dev/ttyACM
 </video>
 
 
-
+product_video: 'https://github.com/mathzxw2002/robot_learning/blob/main/lerobot_install/calibrate_so101_2.mp4?raw=true'
 
 Teleoperate LeKiwi
 
