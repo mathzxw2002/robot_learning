@@ -112,16 +112,14 @@ Calibrate leader arm
 ```
 python -m lerobot.calibrate --teleop.type=so100_leader --teleop.port=/dev/ttyACM0 --teleop.id=my_awesome_leader_arm # <- Give the robot a unique name
 
-<video width="800" controls>
-  <source src="./calibrate_so101_2.mp4?raw=true" type="video/mp4">
-  播放失败
-</video>
-
-
 
 ```
 
 
+<video width="800" controls>
+  <source src="https://github.com/mathzxw2002/robot_learning/blob/main/lerobot_install/calibrate_so101_2.mp4?raw=true" type="video/mp4">
+  播放失败
+</video>
 
 
 
