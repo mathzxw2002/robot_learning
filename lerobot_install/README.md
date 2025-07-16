@@ -5,6 +5,9 @@ https://github.com/huggingface/lerobot
 https://huggingface.co/docs/lerobot/lekiwi
 
 
+# Training
+https://learnopencv.com/smolvla-lerobot-vision-language-action-model/
+
 # Install LeRobot locally on PC
 
 ## 1, Install Ubuntu-24.04 on WSL2
