@@ -1,3 +1,10 @@
+# Docker
+
+docker build -t .
+
+docker run --gpus all --runtime=nvidia -it lerobot:ubuntu24
+
+
 # Lerobot Github
 https://github.com/huggingface/lerobot
 
