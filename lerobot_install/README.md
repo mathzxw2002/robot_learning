@@ -1,6 +1,6 @@
 # Docker
 
-docker build -t .
+docker build -t lerobot:ubuntu22_cuda12.0 .
 
 docker run --runtime=nvidia -it lerobot:ubuntu24
 
