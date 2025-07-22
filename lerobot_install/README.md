@@ -2,7 +2,7 @@
 
 docker build -t .
 
-docker run --gpus all --runtime=nvidia -it lerobot:ubuntu24
+docker run --runtime=nvidia -it lerobot:ubuntu24
 
 docker save -o lerobot_ubuntu24.tar lerobot:ubuntu24 
 
