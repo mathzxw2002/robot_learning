@@ -2,9 +2,9 @@
 
 docker build -t lerobot:ubuntu22_cuda12.0 .
 
-docker run --runtime=nvidia -it lerobot:ubuntu24
+docker run --runtime=nvidia -it lerobot:ubuntu22_cuda12.0
 
-docker save -o lerobot_ubuntu24.tar lerobot:ubuntu24 
+docker save -o lerobot:ubuntu22_cuda12.0.tar lerobot:ubuntu22_cuda12.0 
 
 
 # Lerobot Github
