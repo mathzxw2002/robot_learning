@@ -2,7 +2,7 @@
 
 docker build -t lerobot:ubuntu22_cuda12.0 .
 
-docker run --runtime=nvidia -it -v ~/lerobot_training:lerobot_training lerobot:ubuntu22_cuda12.0
+docker run --runtime=nvidia -it -v ~/lerobot_training:/lerobot_training --privileged=true  --shm-size=16g lerobot:ubuntu22_cuda12.0
 
 docker save -o lerobot_ubuntu22_cuda12.0.tar lerobot:ubuntu22_cuda12.0 
 
