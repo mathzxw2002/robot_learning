@@ -1,12 +1,8 @@
 TODO:
-1, add slam and nav2, to enable the moving function of lekiwi
-
-2, add a third camera
-
-3, using other policies
-
-4, multiple gpu training
-
+1, add slam and nav2, to enable the moving function of lekiwi \
+2, add a third camera \
+3, using other policies \
+4, multiple gpu training \
 5, 
 
 
