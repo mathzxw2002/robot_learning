@@ -1,4 +1,5 @@
 # TODO: 
+0, design the structure of the robot, decide the scenario \
 1, add slam and nav2, to enable the moving function of lekiwi \
 2, add a third camera \
 3, using other policies \
