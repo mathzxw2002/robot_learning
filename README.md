@@ -1,7 +1,7 @@
 # TODO: 
-- [ ] design the structure of the robot, decide the scenario \
-- [ ] add slam and nav2, to enable the moving function of lekiwi \
-- [ ] using other policies \
+- [ ] design the structure of the robot, decide the scenario 
+- [ ] add slam and nav2, to enable the moving function of lekiwi 
+- [ ] using other policies 
 - [ ] multiple gpu training  
 
 
