@@ -6,6 +6,11 @@
 - [ ] mcp  (https://github.com/IliaLarchenko/robot_MCP)
 
 
+https://zhuanlan.zhihu.com/p/1894864050317415008
+
+
+
+
 # robot_learning
 robot_learning
 
