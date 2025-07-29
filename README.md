@@ -3,7 +3,7 @@
 - [ ] add slam and nav2, to enable the moving function of lekiwi 
 - [ ] using other policies 
 - [ ] multiple gpu training  
-- [ ] mcp  
+- [ ] mcp  (https://github.com/IliaLarchenko/robot_MCP)
 
 
 # robot_learning
