@@ -229,3 +229,6 @@ AssertionError: `mean` is infinity. You should either initialize with `stats` as
 
 
 
+pip install --upgrade pip
+
+
