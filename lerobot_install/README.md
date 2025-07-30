@@ -1,3 +1,8 @@
+
+<img width="975" height="1164" alt="image" src="https://github.com/user-attachments/assets/6b930fbb-3e6d-4042-ab7d-47027867185b" />
+
+
+
 # Docker
 
 docker build -t lerobot:ubuntu22_cuda12.0 .
