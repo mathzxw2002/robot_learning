@@ -44,5 +44,10 @@ Master AI Agentic Engineering - build autonomous AI Agents: https://github.com/e
 
 
 
+Ovis-U1: Unified Understanding, Generation, and Editing: An unified model that seamlessly integrates multimodal understanding, text-to-image generation, and image editing within a single powerful framework. \
+https://github.com/AIDC-AI/Ovis-U1 \
+demo : https://huggingface.co/spaces/AIDC-AI/Ovis-U1-3B \
+
+
 
 
