@@ -62,9 +62,17 @@ https://ernestryu.com/courses/RL-LLM.html \
 
 CS25: Transformers United V5: https://web.stanford.edu/class/cs25 \
 
+Stanford CS25: V2 I Introduction to Transformers w/ Andrej Karpathy: https://www.youtube.com/watch?v=XfpMkf4rD6E \
+
 
 
 # Computer Vision
+
+About
+[NeurIPS 2024] Depth Anything V2. A More Capable Foundation Model for Monocular Depth Estimation \
+https://github.com/DepthAnything/Depth-Anything-V2
+
+
 
 Describe Anything: Detailed Localized Image and Video Captioning \
 code: https://github.com/NVlabs/describe-anything \
