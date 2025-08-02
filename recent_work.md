@@ -39,6 +39,10 @@ homepage: https://describe-anything.github.io \
 
 Master AI Agentic Engineering - build autonomous AI Agents: https://github.com/ed-donner/agents \
 6 week journey to code and deploy AI Agents with OpenAI Agents SDK, CrewAI, LangGraph, AutoGen and MCP \
-https://github.com/ed-donner/agents/raw/main/assets/autonomy.png \
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f203ec73-257e-4dd9-b538-5f33c541f175" />
+
+
+
 
 
