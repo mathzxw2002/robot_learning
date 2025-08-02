@@ -49,5 +49,11 @@ https://github.com/AIDC-AI/Ovis-U1 \
 demo : https://huggingface.co/spaces/AIDC-AI/Ovis-U1-3B \
 
 
+CS336: Language Modeling from Scratch
+Stanford / Spring 2025: https://stanford-cs336.github.io/spring2025/
+
+Hunyuan3D-2.1: https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1 \
+3d.hunyuan.tencent.com/ \
+
 
 
