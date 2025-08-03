@@ -358,6 +358,138 @@ ModelScope 社区将持续把探索过程中的模型权重、训练数据以及
 GitHub：http://t.cn/A6gZlR2H
 
 
+【[355星]Seed1.5-VL：一款强大的视觉-语言基础模型，专为通用多模态理解和推理而设计，能在多种复杂任务中提供卓越表现。亮点：1. 高效架构，仅用5.32亿视觉编码器和200亿参数的MoE LLM，实现顶尖性能；2. 在60个公共基准测试中，38个达到最佳水平；3. 擅长复杂推理、OCR、图解理解、视觉定位、3D空间理解及视频理解等多种能力】  
+'Seed1.5-VL, a vision-language foundation model designed to advance general-purpose multimodal understanding and reasoning, achieving state-of-the-art performance on 38 out of 60 public benchmarks.'  
+GitHub: github.com/ByteDance-Seed/Seed1.5-VL  
+
+
+Google 发布最新端侧开源模型 Gemma 3n。作为 Gemma 团队最新的小型模型，Gemma 3n 不仅延续了 Gemini Nano 系列高效、轻量的传统，还首次将多模态感知能力融入端侧模型之中，为开发者和最终用户带来了更为丰富和自然的交互体验。
+
+Gemma 3m 在架构设计上体现出了对实际应用场景的深刻理解。团队对模型进行了针对性的定制优化，特别强调了在移动设备等低功耗环境下的高效推理能力。得益于此，Gemma 3n 能够以更低的内存占用（2GB）和更快的响应速度，支持如函数调用、文本与图像的交错处理等复杂任务，并且首次具备了音频和视频输入的理解能力。这种多模态的支持，无疑为端侧 AI 模型的应用边界带来了更大的想象空间，也为开发者在构建更具沉浸感与智能化的应用时提供了坚实基础。
+
+值得关注的是，Gemma 3n 引入了创新的二合一架构，在一个模型内部集成了嵌入式子模型，用户可以根据实际需求动态在高质量与高速度之间切换，无需额外管理多套模型。这一设计理念不仅优化了资源利用，也极大简化了部署和运维流程。
+
+Gemma 3n 的底层技术与 Gemini Nano 一脉相承，意味着开发者可以提前探索和体验下一代 Gemini 模型的架构与能力，为未来的产品升级和技术演进打下基础。在实际应用中，Gemma 3n 已经能够为 Android、Chrome 等主流平台带来更流畅、更智能的端侧 AI 体验。其推理速度、内存占用和多模态输入理解等性能提升，将极大丰富用户在移动设备端的智能交互方式。
+
+此外，Gemma 3n 继续秉承了开放和可访问的理念。Google 通过与社区和合作伙伴的紧密协作，推动了模型的普及和技术生态的繁荣。开发者不仅能够利用主流工具和平台（Google AI Studio、Google GenAI SDK、Higging Face、Kaggle）快速上手 Gemma 3n，也能在此基础上探索更多创新可能。
+
+
+Qwen3-Coder-flash这个模型，就是Qwen3-Coder-30B-A3B-Instruct确实有点东西啊。
+
+在3060 12G的显卡上，4比特量化，速度可以达到34 token/s，这个速度已经是不错了，反正你不会感觉慢。
+如果是4090，那个速度就更快了，不过我没有测。
+
+以前这种模型都是玩具，是用来学习和研究的。
+现在真的可以干点事情了。
+
+我让它写了一个小球跳动的，一次性完成，效果不错。
+然后又让它写了一个俄罗斯方块，也是一次性完成。
+就是左右移动的时候，移动的格子有点大，其余没有问题。
+
+这在前面的版本中，哪怕参数大一些，也是经常搞不定的。
+
+本来还想用gemini cli之类的来试试它的调用工具能力和综合能力的。
+结果发现ollama适配Qwen3-Coder-flash的时候，没有适配工具。
+
+这个可以让我们看到两个前景：
+1.这个级别的模型，在特定的场景，完全是可以能训练出来的。
+目前只是编码场景，其它场景，比如设计、写作、法律、医疗等等也可以做到。
+
+2.可以以极低成本跑在大部分的电脑上，价格完全可以承受。
+
+应该说Qwen3-Coder-flash只是刚刚跨国门槛，未来的潜力还很大。
+
+Qwen团队在训练Qwen3编码模型的时候，利用阿里云的基础设施构建了一个可扩展的系统，能够并行运行 20,000 个独立环境，然后通过获得环境中各种工具的反馈来训练，极大的增强了智能体的能力。
+说明这种方法是有效的。
+
+这只是开始，智能体的时代正向我们稳步走来。
+
+模型地址：www.modelscope.cn/models/Qwen/Qwen3-Coder-30B-A3B-Instruct
+
+
+字节跳动刚刚发布了他们的文本 Diffusion 模型！—— Seed Diffusion Preview！
+
+给不太了解文本 Diffusion 模型的同学，大家都知道现在 transformer 大模型是一个字一个字蹦出来的，而文本Diffusion 模型则是跟图像Diffusion 模型差不多，是一个去噪过程，整段话随机出现文本最后组成所有输出。
+
+Diffusion 文本模型的优点是巨快，字节这个有 每秒 2146 个 token 的速度（应该是现在最快？）。我让它用 Rust 写冒泡排序，几乎是秒出。当然目前 Diffusion 文本模型最大的问题还是性能太低了，很难干活。
+
+目前除了eed Diffusion Preview以外，还有最知名的 Mercury Coder 和 Google 的 Gemini Diffusion.
+
+一会也给大家带来简单的测评。
+
+字节的发布blog: seed.bytedance.com/en/seed_diffusion
+在线体验地址：studio.seed.ai/exp/seed_diffusion/
+
+
+继前段时间密集发布了三款 AI 大模型后，Qwen 凌晨又更新了 —— 原本的 Qwen3-30B-A3B 有了一个新版本：Qwen3-30B-A3B-Instruct-2507。
+
+这个新版本是一个非思考模式（non-thinking mode）的新模型。它的亮点在于，仅激活 30 亿（3B）参数，就能展现出与业界顶尖闭源模型，如谷歌的 Gemini 2.5-Flash（非思考模式）和 OpenAI 的 GPT-4o 相媲美的超强实力，这标志着在模型效率和性能优化上的一次重大突破。
+继前段时间密集发布了三款 AI 大模型后，Qwen 凌晨又更新了 —— 原本的 Qwen3-30B-A3B 有了一个新版本：Qwen3-30B-A3B-Instruct-2507。
+
+这个新版本是一个非思考模式（non-thinking mode）的新模型。它的亮点在于，仅激活 30 亿（3B）参数，就能展现出与业界顶尖闭源模型，如谷歌的 Gemini 2.5-Flash（非思考模式）和 OpenAI 的 GPT-4o 相媲美的超强实力，这标志着在模型效率和性能优化上的一次重大突破。
+
+GPT-5还没影子，但国产这边一个「融合大模型」已经炸出来了！
+
+智谱「悄悄的」发布了最新的旗舰版本模型GLM-4.5，这是一个全新的「融合大模型」，主打Agent Foundation Model。
+
+今天网传的最新消息，GPT-5发布时间又要提前，预计7月底面世！
+
+相较于其他模型竞相「卷参数、刷榜单」，GLM-4.5这次选择了不一样的路线——不跟风，不内卷，而是直接「狙击GPT-5」！
+
+GLM-4.5融合ARC（Agentic/Reasoning/Coding）能力，将推理、编程与Agent能力原生整合，走向更通用、更高效的AI形态。
+
+体验地址：http://t.cn/A6rnBgUU
+
+新一代多模态推理基模Step 3横空出世了！是专为推理时代打造的最适合应用的模型，以最高可达DeepSeek-R1 300%的推理效率击破行业天花板。7月31日，Step 3将正式开源，问鼎开源最强多模推理模型。 
+
+Unsloth AI 新出的，20分钟学会微调大语言模型（LLM）全指南！
+
+你将学会如何：
+
+- 选择合适的模型与训练方法（LoRA、FFT、GRPO）
+- 构建数据集与对话模板
+- 使用 Unsloth 的 notebook 进行训练
+- 在 llama.cpp、Ollama 和 Open WebUI 上运行与部署你的 LLM
+
+文档地址：docs.unsloth.ai
+
+注：视频字幕机翻
+
+
+
+#谷歌DeepMind全新MoR架构问世#就在刚刚，KAIST、Mila和谷歌DeepMind团队等放出重磅炸弹——
+
+一个名为Mixture-of-Recursions的全新LLM模型架构。
+
+这个崭新的架构，被业内认为有潜力成为Transformer杀手！
+
+它的推理速度提升2倍，训练FLOP减少，KV缓存内存直接减半。
+
+最终，在135M到1.7B的参数规模下，MoR直接划出了一个新的帕累托前沿：相同的训练FLOPs，但困惑度更低、小样本准确率更高，并且吞吐量提升超过2倍。
+
+全面碾压传统的Transformer！
+
+论文链接：http://t.cn/A6kKLHUm
+
+
+Chain of Thoughts（CoT）推理革命来了！短而高效的思维链让AI更快更聪明！
+- 🧠 CoT热度高涨，但传统推理链往往冗长且易过度思考。
+- 🚀 本项目聚焦如何让CoT与大型推理模型（LRMs）更高效，重点技术包括：
+  - ✍️ Prompting-based：如“Sketch-of-Thought”“Chain of Draft”等，写得更少，思考更快。
+  - 🎯 Budget Control：动态控制推理预算，避免资源浪费。
+  - 🌀 Latent Space压缩：用隐空间表达，提升推理密度和速度。
+  - 📝 Summarization：压缩推理步骤，保持效果同时缩短链长。
+  - ⏭️ Skip Something：跳过不必要步骤，提升效率。
+  - 💾 KV Cache管理：优化长序列推理的缓存机制。
+  - 🎓 强化学习：用RL控制推理长度，实现智能调节。
+- 📅 持续更新最新论文与代码，紧跟2024-2025前沿研究。
+- 🏫 背后团队：香港科技大学PEILab，专业且领先。
+
+加速你的AI推理，从这里开始！👉 github.com/Blueyee/Efficient-CoT-LRMs
+
+
+
+
 
 
 # RAG
