@@ -8,7 +8,7 @@
 
 https://dobby.now \
 
-[点击观看视频](./agent_web_camera.mp4)
+[OpenAI ChatGPT 控制 WebCamera](./agent_web_camera.mp4)
 
 有意思：Alita 本质上代表了一种全新的智能体构建方式：不靠预设，不靠大量人类经验堆叠，而是将自主演化能力交给 agent 自身，最终还benchmark还战胜了manus🧐
 《Alita：最小预设与自我演化驱动的通用智能体》
