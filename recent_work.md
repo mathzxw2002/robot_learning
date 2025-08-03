@@ -517,6 +517,8 @@ Transformer Explainer：为非专业用户打造的交互式Transformer可视化
 了解详情🔗 poloclub.github.io/transformer-explainer/
 相关论文🔗 arxiv.fly51fly.workers.dev/abs/2408.04619  
 
+<img width="2061" height="904" alt="image" src="https://github.com/user-attachments/assets/be26bbe4-f1c3-4a6f-b9ba-8fd89288305c" />
+
 
 # RAG
 
