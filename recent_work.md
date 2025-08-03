@@ -1,5 +1,6 @@
 # Embodied AI
 
+[点击观看视频](http://t.cn/A6ggDNra)
 
 ## Google DeepMind
 
