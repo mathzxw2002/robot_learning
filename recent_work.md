@@ -1,4 +1,12 @@
-<img width="2061" height="904" alt="image" src="https://github.com/user-attachments/assets/c213ac32-a9e0-444f-884e-c0eab0930b14" /># Embodied AI
+# Embodied AI
+
+
+## Google DeepMind, Figure AI 
+
+## UC Berkeley’s Physical Intelligence Lab (π series)
+
+
+
 
 ## InternRobotics
 https://internrobotics.shlab.org.cn/
@@ -15,6 +23,19 @@ https://github.com/huggingface/lerobot
 
 <img width="512" height="384" alt="image" src="https://github.com/user-attachments/assets/c7a082bd-708e-401d-8656-a42529ff8865" />
 
+
+## Seed GR-3
+
+https://seed.bytedance.com/GR3
+
+<img width="9601" height="2574" alt="image" src="https://github.com/user-attachments/assets/a15c3d08-f82c-4401-84d2-86d6f241bbd4" />
+
+
+## SpiritAI (千寻智能)
+
+https://www.youtube.com/watch?v=NmJWLwSj_mU&ab_channel=XRoboHub 
+
+https://www.glbgpt.com/resource/moz1-robot-and-chinas-race-for-real-world-ai
 
 
 # Agent
