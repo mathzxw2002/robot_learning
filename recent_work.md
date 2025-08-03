@@ -506,8 +506,16 @@ Chain of Thoughts（CoT）推理革命来了！短而高效的思维链让AI更�
 加速你的AI推理，从这里开始！👉 github.com/Blueyee/Efficient-CoT-LRMs
 
 
-
-
+## Transformer Explainer
+Transformer Explainer：为非专业用户打造的交互式Transformer可视化学习工具，基于GPT-2模型，深度剖析生成式文本模型的工作机制。
+• 实时本地运行GPT-2，无需安装或特殊硬件，降低学习门槛，立即体验AI预测流程。
+• 多层次抽象展示：从数学运算到模型结构，流畅切换，直观理解复杂Transformer机制。
+• 支持用户自定义输入，动态观察模型内部各组件和参数如何协同生成下一词。
+• 开源免费，促进公众对现代生成式AI技术的普及与教育，助力长期认知积累与方法论深化。
+• 一站式工具集成理论与实践，适合教育、研究与自学，推动Transformer透明化与普及化。
+深刻洞察Transformer本质，开启生成模型学习新范式。  
+了解详情🔗 poloclub.github.io/transformer-explainer/
+相关论文🔗 arxiv.fly51fly.workers.dev/abs/2408.04619  
 
 
 # RAG
