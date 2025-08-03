@@ -193,6 +193,12 @@ Warp 发布 2.0 Agentic 开发环境#ai创造营#
 ## Manus
 
 
+## Langgraph
+
+https://github.com/langchain-ai/langgraph
+
+
+
 
 
 
