@@ -8,7 +8,56 @@
 
 https://dobby.now \
 
-./agent_web_camera.mp4
+<video width="640" height="480" controls>
+  <source src="./agent_web_camera.mp4" type="video/mp4">
+</video>
+
+
+有意思：Alita 本质上代表了一种全新的智能体构建方式：不靠预设，不靠大量人类经验堆叠，而是将自主演化能力交给 agent 自身，最终还benchmark还战胜了manus🧐
+《Alita：最小预设与自我演化驱动的通用智能体》
+
+GitHub - CharlesQ9/Alita
+🧐Alita 是一个以“最小预设+最大自我演化”为核心设计哲学的通用智能体系统，摆脱传统预设工具的束缚，依靠动态生成的 MCP（Model Context Protocol）实现任务自适应与能力进化，在 GAIA 基准上超越 OpenAI Deep Research 和 Manus，代表了“极简即未来”的 agent 构建新范式。
+➡️链接：http://t.cn/A6eSLyOZ
+➡️中文拓展阅读：http://t.cn/A6eq05Xi
+✨重点
+
+●🧩 摒弃手工预设工具，转向动态MCP生成机制
+
+传统 agent 框架依赖大量预定义工具，而 Alita 仅保留最基础的 web agent，并通过自动生成 MCP（类似工具协议）完成功能扩展，提升泛化能力与组合创造性。
+●🧠 核心理念：最小预设（Minimal Predefinition） + 最大自演化（Maximal Self-Evolution）
+
+Alita 模仿人类学习过程，通过任务中自发演化适配外部资源，并保留可复用的“知识块”（MCP Box），构建出高性能、自进化的智能体系统。
+
+●🧠 反传统：不靠工具库的通用智能体范式突破
+
+Alita 拒绝依赖预定义工具与流程，避免了工具覆盖有限、灵活性受限、环境不兼容等三大核心问题，打破目前“堆工具=强 agent”的主流设计惯性。
+●🧩 MCP 动态生成机制：让 AI 自己造工具
+
+通过 MCP Brainstorming、ScriptGeneratingTool 和 CodeRunningTool 三个子模块，Alita 可分析任务能力缺口，自行搜索资料、生成代码并封装为 MCP 工具。
+●🔁 形成闭环演化系统：从问题 → 工具 → 优化 → 复用
+
+MCP 工具在虚拟环境中验证成功后被记录为可复用资产，失败则触发自动诊断修复，最终构建起能进化与学习的自闭环系统。
+
+●📦 MCP Box = 低成本蒸馏 + Agent 知识共享机制
+
+Alita 可自动总结高效的 MCP 配方并存入 MCP Box，弱小 agent 可借助这些配置显著增强能力，类似“强者教弱者”的知识蒸馏过程，突破传统 LLM 封闭成长路径。
+●📈 在 GAIA benchmark 中达成 SOTA 表现
+
+在 GAIA 验证集上 pass@1 达 75.15%，pass@3 高达 87.27%，显著超过 OpenAI Deep Research；即使在强调网页操作能力的测试集上仍保持领先。
+●🛠️ 强调 MCP 构建的通用性与抽象性
+
+通过 MCP 抽象（避免过拟合）与防止 MCP 重叠（MCP overload），Alita 能同时实现任务通用性与模块清晰性，在 agent 设计中找到泛化与精度的动态平衡。
+●📹 面向复杂多模态任务的“自主创造工具”能力
+
+比如面对视频理解任务，Alita 可自行构造“逐帧处理”工具链，而非依赖开发者预设的 transcript 爬虫，体现出 agent 的超越性创造力。
+●🧪 对Humanities等冷门领域也有显著探索
+
+Alita 被用于开发历史问答代理“HistAgent”，在AI for Humanities 中探索通用agent在跨学科推理中的可行性，打破AI仅限于Science类任务的思维局限。
+●⚙️ 轻量级工程实现，支持快速复现与开源计划
+
+项目由作者与两位本科生实现，强调“无需复杂架构，也能超越大厂团队”，代码将于近期开放，鼓励开发者构建自己的“Open-Alita”。这对未来的 Auto-Agent 构建、Auto-Tool 生成以及 AGI 进化路径具有启发意义。
+
 
 # LLMs
 
