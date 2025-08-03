@@ -12,7 +12,7 @@ github: https://github.com/InternRobotics \
 ## Lerobot
 https://github.com/huggingface/lerobot
 
-<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/c7a082bd-708e-401d-8656-a42529ff8865" />
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/c7a082bd-708e-401d-8656-a42529ff8865" />
 
 
 
