@@ -42,6 +42,21 @@ https://rlhfbook.com \
 
 
 
+Kimi
+
+Kimi K2技术报告：最新开源智能体大模型，刷新非思考模式性能新高度。
+• 1.04万亿参数MoE架构，激活参数达320亿，基于MuonClip优化器实现15.5万亿高质量token预训练无损失峰值。
+• 创新QK-Clip机制，稳定控制注意力logits爆炸，确保大规模训练稳定高效。
+• 大规模合成工具调用数据与多阶段强化学习相结合，强化模型自主感知、规划、推理与行动能力。
+• 多项权威基准测试领先开源及闭源对手：Tau2-Bench 66.1、ACEBench 76.5、SWE-Bench Verified 65.8，展现卓越编码、数学与推理实力。
+• 灵活高效的训练与推理架构支持128k超长上下文，兼顾性能与成本，推动智能体技术前沿。
+• 完善安全策略与红队评估，保障生成内容可靠与合规。
+• 开源基础及后训练模型检查点，助力社区共建智能体未来。
+技术报告👉 github.com/MoonshotAI/Kimi-K2/blob/main/tech_report.pdf
+模型下载👉 huggingface.co/moonshotai/Kimi-K2-Instruct
+
+
+
 
 # MCP
 
