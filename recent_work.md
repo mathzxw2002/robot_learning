@@ -1,7 +1,12 @@
 # Embodied AI
 
 
-## Google DeepMind, Figure AI 
+## Google DeepMind
+
+
+## Figure AI 
+https://www.figure.ai/
+
 
 ## UC Berkeley’s Physical Intelligence Lab (π series)
 
