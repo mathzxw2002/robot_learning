@@ -2,6 +2,10 @@
 
 [点击观看视频](http://t.cn/A6ggDNra)
 
+<img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/3c79d1b9-8d80-42e3-ad66-36ad777de261" />
+
+
+
 ## Google DeepMind
 
 
@@ -90,6 +94,31 @@ https://www.glbgpt.com/resource/moz1-robot-and-chinas-race-for-real-world-ai
 
 Blog：www.1x.tech/discover/redwood-ai
 <img width="3824" height="1492" alt="image" src="https://github.com/user-attachments/assets/adec2d35-6ce8-4b70-a971-61497afb65b5" />
+
+
+### Others
+
+乐享科技
+<img width="1080" height="1441" alt="image" src="https://github.com/user-attachments/assets/0778523f-d8d2-42ab-a74f-6d5eea2b1120" />
+
+
+ViTacFormer，一个融合视觉与触觉信息，并引入未来触觉预测机制的统一框架，专为提升灵巧操控中的精度、稳定性与持续控制能力而设计。
+https://news.qq.com/rain/a/20250710A06GUH00
+
+论文作者包括我们熟悉的 UC Berkeley 大牛 Pieter Abbeel 和 Jitendra Malik，以及他们的学生，北大校友、UC Berkeley 博士生耿浩然 (项目 lead)。
+
+论文标题：ViTacFormer: Learning Cross-Modal Representation for Visuo-Tactile Dexterous Manipulation
+
+论文主页：https://roboverseorg.github.io/ViTacFormerPage/
+
+Github 链接: https://github.com/RoboVerseOrg/ViTacFormer
+
+
+<img width="960" height="567" alt="image" src="https://github.com/user-attachments/assets/77f61199-fd3c-4021-a250-c38a725be686" />
+
+
+
+Zerith Robotics（零次方）has launched its "All-Modal" Embodied AI Robot Data Full-Link Solution, starting at ¥99,000! This looks like a complete data management system for humanoid and intelligent robots.
 
 
 # Agent
