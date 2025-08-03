@@ -42,7 +42,9 @@ https://www.youtube.com/watch?v=NmJWLwSj_mU&ab_channel=XRoboHub
 
 https://www.glbgpt.com/resource/moz1-robot-and-chinas-race-for-real-world-ai
 
-## 1X
+## 1X (https://www.1x.tech/)
+
+<img width="2048" height="1058" alt="image" src="https://github.com/user-attachments/assets/b1596032-267c-4630-8386-681fbb9f8ea3" />
 
 1X公司发布了最新的AI模型Redwood，使得家务机器人的能力又有了进一步提升↓
 
@@ -67,6 +69,7 @@ https://www.glbgpt.com/resource/moz1-robot-and-chinas-race-for-real-world-ai
    解决家务任务需要将操控与在家中的导航结合起来。Redwood在家庭环境中对大量不同的对象导航和拾放演示进行了训练，并计划将导航和操控行为一起训练。这种训练的一个突出特性是Redwood可以自动决定使用左手、右手还是双手来捡起物体。
 
 Blog：www.1x.tech/discover/redwood-ai
+<img width="3824" height="1492" alt="image" src="https://github.com/user-attachments/assets/adec2d35-6ce8-4b70-a971-61497afb65b5" />
 
 
 # Agent
