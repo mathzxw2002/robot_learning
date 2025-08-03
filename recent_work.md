@@ -1,7 +1,5 @@
 # Embodied AI
 
-[点击观看视频](http://t.cn/A6ggDNra)
-
 <img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/3c79d1b9-8d80-42e3-ad66-36ad777de261" />
 
 
@@ -118,8 +116,11 @@ Github 链接: https://github.com/RoboVerseOrg/ViTacFormer
 
 
 
-Zerith Robotics（零次方）has launched its "All-Modal" Embodied AI Robot Data Full-Link Solution, starting at ¥99,000! This looks like a complete data management system for humanoid and intelligent robots.
+[点击观看视频](http://t.cn/A6ggDNra)
 
+
+Zerith Robotics（零次方）has launched its "All-Modal" Embodied AI Robot Data Full-Link Solution, starting at ¥99,000! This looks like a complete data management system for humanoid and intelligent robots.
+https://x.com/i/status/1935579627701072191
 
 # Agent
 
