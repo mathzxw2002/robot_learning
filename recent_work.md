@@ -6,12 +6,13 @@
 
 # Agent
 
-https://dobby.now \
+https://dobby.now 
 
 [OpenAI ChatGPT 控制 WebCamera](./agent_web_camera.mp4)
 
-有意思：Alita 本质上代表了一种全新的智能体构建方式：不靠预设，不靠大量人类经验堆叠，而是将自主演化能力交给 agent 自身，最终还benchmark还战胜了manus🧐
-《Alita：最小预设与自我演化驱动的通用智能体》
+Alita：最小预设与自我演化驱动的通用智能体 \
+Alita 本质上代表了一种全新的智能体构建方式：不靠预设，不靠大量人类经验堆叠，而是将自主演化能力交给 agent 自身，最终还benchmark还战胜了manus🧐
+
 
 GitHub - CharlesQ9/Alita
 🧐Alita 是一个以“最小预设+最大自我演化”为核心设计哲学的通用智能体系统，摆脱传统预设工具的束缚，依靠动态生成的 MCP（Model Context Protocol）实现任务自适应与能力进化，在 GAIA 基准上超越 OpenAI Deep Research 和 Manus，代表了“极简即未来”的 agent 构建新范式。
@@ -54,6 +55,8 @@ Alita 被用于开发历史问答代理“HistAgent”，在AI for Humanities �
 ●⚙️ 轻量级工程实现，支持快速复现与开源计划
 
 项目由作者与两位本科生实现，强调“无需复杂架构，也能超越大厂团队”，代码将于近期开放，鼓励开发者构建自己的“Open-Alita”。这对未来的 Auto-Agent 构建、Auto-Tool 生成以及 AGI 进化路径具有启发意义。
+
+
 
 
 # LLMs
