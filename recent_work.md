@@ -9,8 +9,10 @@ huggingface: https://huggingface.co/InternRobotics \
 github: https://github.com/InternRobotics \
 
 
-# VLA
+## Lerobot
+https://github.com/huggingface/lerobot
 
+<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/c7a082bd-708e-401d-8656-a42529ff8865" />
 
 
 
