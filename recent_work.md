@@ -697,6 +697,9 @@ CVPR 2025 | 工业异常检测新突破！复旦&腾讯打造Real-IAD D³多模�
 
  
 
+【重磅升级】工业异常检测库 Anomalibv2.0正式发布 https://mp.weixin.qq.com/s/2uXf0sWSPYsI2szZbMxwaw
+
+
 
 
 
