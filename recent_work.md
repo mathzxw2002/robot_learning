@@ -57,6 +57,9 @@ Kimi K2技术报告：最新开源智能体大模型，刷新非思考模式性�
 
 
 
+
+https://arxiv.org/abs/2507.13334 \
+
 论文《A Survey of Context Engineering for Large Language Models》， 上下文工程综述
 
 看完这篇论文，如果你是：
