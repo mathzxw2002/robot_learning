@@ -1,3 +1,13 @@
+# Embodied AI
+
+https://internrobotics.shlab.org.cn/
+
+<img width="1387" height="639" alt="image" src="https://github.com/user-attachments/assets/bc2917b6-8b55-4b05-8f22-997dba20dc6a" />
+
+huggingface: https://huggingface.co/InternRobotics \
+
+github: https://github.com/InternRobotics \
+
 
 # VLA
 
