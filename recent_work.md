@@ -196,6 +196,12 @@ Warp 发布 2.0 Agentic 开发环境#ai创造营#
 ## Langgraph
 
 https://github.com/langchain-ai/langgraph
+<img width="1622" height="251" alt="image" src="https://github.com/user-attachments/assets/17eac528-e11f-4119-8f1e-8b1ebc27c4c5" />
+
+
+https://langchain-ai.github.io/langgraph/
+
+Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building, managing, and deploying long-running, stateful agents.
 
 
 
