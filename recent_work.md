@@ -1,4 +1,4 @@
-# Embodied AI
+<img width="2061" height="904" alt="image" src="https://github.com/user-attachments/assets/c213ac32-a9e0-444f-884e-c0eab0930b14" /># Embodied AI
 
 ## InternRobotics
 https://internrobotics.shlab.org.cn/
@@ -13,16 +13,18 @@ github: https://github.com/InternRobotics \
 ## Lerobot
 https://github.com/huggingface/lerobot
 
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/c7a082bd-708e-401d-8656-a42529ff8865" />
+<img width="512" height="384" alt="image" src="https://github.com/user-attachments/assets/c7a082bd-708e-401d-8656-a42529ff8865" />
 
 
 
 # Agent
 
+## Dobby
 https://dobby.now 
 
 [OpenAI ChatGPT 控制 WebCamera](./agent_web_camera.mp4)
 
+## Alita
 Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal Predefinition and Maximal Self-Evolution \
 
 <img width="1938" height="814" alt="image" src="https://github.com/user-attachments/assets/33f6770a-6429-43ad-850c-671216bd7864" />
@@ -70,11 +72,59 @@ Alita 被用于开发历史问答代理“HistAgent”，在AI for Humanities �
 
 
 
+智能体经济的终极图景，是一个万亿美元级的自治生态：Agent工厂标准化生产海量垂直领域智能体，Agent市场为其提供能力交易与组合创新的平台；
+
+https://mp.weixin.qq.com/s/wjyElZz-aEMpxGbQ9k3yMw
+
+
+西门子 Industrial Copilot摘下今年「工业界奥斯卡」赫尔墨斯奖
+
+ https://weibo.com/ttarticle/x/m/show#/id=2309405192298262036504&_wb_client_=1
+
+
+ 阿里第一批企业级 Agent，为什么落在了瓴羊 https://weibo.com/ttarticle/x/m/show#/id=2309405192015255568510&_wb_client_=1
+
+
+ 🔥 Hugging Face 最新开源项目 ScreenEnv，让你轻松打造全栈桌面 AI 智能体！🖥️🤖
+还在为部署桌面 GUI 智能体发愁？ScreenEnv 用 Docker 打包了完整的 Ubuntu 桌面环境，不用虚拟机，10 秒内就能搞定一个「能看、能点、能打字、还能录屏」的智能体实验室！💻
+
+支持直接用 Python API 控制，也内置 MCP 协议，AI 系统一键远程接入。搭配 smolagents，只需几行代码，就能训练和部署自己的专属桌面 Agent，轻松实现：
+✅ 点击任意坐标
+✅ 自动打字、按键
+✅ 打开网页或文件
+✅ 启动指定应用
+
+支持 GPT-4、Qwen2.5-VL、Claude 等主流大模型，AI 动作全盘掌控🔥！未来还将支持 Android、macOS、Windows，真正实现跨平台 GUI 自动化与评测🎯。
+
+🤗 一行命令体验：pip install screenenv
+想了解更多玩法，或者一起参与共建，欢迎加入 Hugging Face 中文社区：Chinese LLMs on Hugging Face
+
+
+Warp 发布 2.0 Agentic 开发环境#ai创造营# 
+
+第一个面向智能体开发的一站式平台，Terminal-Bench 榜首，SWE-bench 71% 得分
+
+支持多线程：同时让多个智能体并行构建功能、调试和发布代码。
+
+通过文本、文件、图片、URL 等多种方式为智能体提供上下文。
+
+支持语音输入：可用语音下达复杂指令，节省时间。
+
+智能体可自动搜索整个代码库、调用 CLI 工具、查阅 Warp Drive 文档、利用 MCP 服务器获取上下文。 http://t.cn/A6DGrxGY
+
+
+
+
+
+## Manus
+
 
 
 
 
 # LLMs
+
+## Qwen
 
 https://github.com/QwenLM/Qwen2.5-VL \
 
@@ -106,7 +156,7 @@ https://rlhfbook.com \
 
 
 
-Kimi
+## Kimi
 
 Kimi K2技术报告：最新开源智能体大模型，刷新非思考模式性能新高度。
 • 1.04万亿参数MoE架构，激活参数达320亿，基于MuonClip优化器实现15.5万亿高质量token预训练无损失峰值。
@@ -380,6 +430,7 @@ GitHub：http://t.cn/A6gZlR2H
 'Seed1.5-VL, a vision-language foundation model designed to advance general-purpose multimodal understanding and reasoning, achieving state-of-the-art performance on 38 out of 60 public benchmarks.'  
 GitHub: github.com/ByteDance-Seed/Seed1.5-VL  
 
+## Google Gemini, Gemmma
 
 Google 发布最新端侧开源模型 Gemma 3n。作为 Gemma 团队最新的小型模型，Gemma 3n 不仅延续了 Gemini Nano 系列高效、轻量的传统，还首次将多模态感知能力融入端侧模型之中，为开发者和最终用户带来了更为丰富和自然的交互体验。
 
@@ -435,6 +486,8 @@ Diffusion 文本模型的优点是巨快，字节这个有 每秒 2146 个 token
 
 一会也给大家带来简单的测评。
 
+
+## Seed
 字节的发布blog: seed.bytedance.com/en/seed_diffusion
 在线体验地址：studio.seed.ai/exp/seed_diffusion/
 
@@ -445,6 +498,9 @@ Diffusion 文本模型的优点是巨快，字节这个有 每秒 2146 个 token
 继前段时间密集发布了三款 AI 大模型后，Qwen 凌晨又更新了 —— 原本的 Qwen3-30B-A3B 有了一个新版本：Qwen3-30B-A3B-Instruct-2507。
 
 这个新版本是一个非思考模式（non-thinking mode）的新模型。它的亮点在于，仅激活 30 亿（3B）参数，就能展现出与业界顶尖闭源模型，如谷歌的 Gemini 2.5-Flash（非思考模式）和 OpenAI 的 GPT-4o 相媲美的超强实力，这标志着在模型效率和性能优化上的一次重大突破。
+
+
+## GLM
 
 GPT-5还没影子，但国产这边一个「融合大模型」已经炸出来了！
 
@@ -592,6 +648,10 @@ paper: https://arxiv.org/pdf/2507.07998  \
 homepage: https://agent-x.space/pyvision/ \
 code: https://github.com/agents-x-project/PyVision \
 online demo: https://huggingface.co/spaces/Agents-X/PyVision
+
+
+
+
 
 
 # Course
