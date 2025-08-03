@@ -2,7 +2,7 @@
 
 https://internrobotics.shlab.org.cn/
 
-<img width="1387*0.5" height="639*0.5" alt="image" src="https://github.com/user-attachments/assets/bc2917b6-8b55-4b05-8f22-997dba20dc6a" />
+<img width="694" height="320" alt="image" src="https://github.com/user-attachments/assets/bc2917b6-8b55-4b05-8f22-997dba20dc6a" />
 
 huggingface: https://huggingface.co/InternRobotics \
 
