@@ -4,6 +4,7 @@
 - [ ] using other policies 
 - [ ] multiple gpu training  
 - [ ] mcp  (https://github.com/IliaLarchenko/robot_MCP)
+- [ ] Multi Model RAG + Visual Reasoning to solve despect detection problem
 
 
 https://zhuanlan.zhihu.com/p/1894864050317415008
