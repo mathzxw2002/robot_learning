@@ -1,8 +1,5 @@
 # Embodied AI
 
-<img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/3c79d1b9-8d80-42e3-ad66-36ad777de261" />
-
-
 
 ## Google DeepMind
 
@@ -117,6 +114,9 @@ Github 链接: https://github.com/RoboVerseOrg/ViTacFormer
 
 
 [点击观看视频](http://t.cn/A6ggDNra)
+
+<img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/3c79d1b9-8d80-42e3-ad66-36ad777de261" />
+
 
 
 Zerith Robotics（零次方）has launched its "All-Modal" Embodied AI Robot Data Full-Link Solution, starting at ¥99,000! This looks like a complete data management system for humanoid and intelligent robots.
