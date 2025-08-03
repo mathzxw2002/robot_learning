@@ -677,6 +677,26 @@ online demo: https://huggingface.co/spaces/Agents-X/PyVision
 
 
 
+开启通用视觉异常检测新时代！开放场景且无需微调？腾讯开源 AdaptCLIP 模型刷新多领域 SOTA！
+码科智能
+
+在上一篇文章中我们提到，当前的异常检测系统多依赖纯视觉算法，由于模型缺乏语义理解能力，导致在将这些异常准确分类为具体类型时往往效果不佳。之前方案提到通过视觉专家模型进行初步筛查，再借助VLM对异常区域进行语义级别的诊断。但其核心问题也逐渐显现：视觉专家模型本身的检测能力是否足够鲁棒？尤其在面对开放域、未知类别的异常样本时，这套系统的泛化能力是否可靠？
+
+
+CVPR 2025开源！上科大等提出MulSen-AD多传感器异常检测数据集！多传感器赋能工业视觉检测，https://mp.weixin.qq.com/s/OoHCNHcQHC8f4_J1LYbQ8g
+
+
+中科慧远惊艳CVPR 2025！揭秘其夺冠背后的“黑科技”，如何重塑工业缺陷检测未来？https://mp.weixin.qq.com/s/F2OEe5jQmNXhEbETnHf6Jg
+
+CVPR 2025 | 工业异常检测新突破！复旦&腾讯打造Real-IAD D³多模态数据集
+ https://mp.weixin.qq.com/s/25kIcOAhOpIah70vFhgPYg
+
+
+工业异常检测迎来新突破：复旦大学与腾讯优图联合推出DualAnoDiff模型
+ https://mp.weixin.qq.com/s/U2ck4OHTRtXnKzF5xlJl1Q
+
+ 
+
 
 
 
