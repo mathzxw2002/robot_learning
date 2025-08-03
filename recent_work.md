@@ -601,6 +601,41 @@ Transformer Explainer：为非专业用户打造的交互式Transformer可视化
 
 <img width="2061" height="904" alt="image" src="https://github.com/user-attachments/assets/be26bbe4-f1c3-4a6f-b9ba-8fd89288305c" />
 
+# LLMs on Device
+
+## MNN
+
+MNN is a blazing fast, lightweight deep learning framework, battle-tested by business-critical use cases in Alibaba. Full multimodal LLM Android App:[MNN-LLM-Android](./apps/Android/MnnLlmChat/README.md). MNN TaoAvatar Android - Local 3D Avatar Intelligence: apps/Android/Mnn3dAvatar/README.md \
+
+https://github.com/alibaba/MNN
+<img width="1080" height="2376" alt="image" src="https://github.com/user-attachments/assets/822d9897-e8ce-461a-a655-cb0bf8fa75b1" />
+
+
+## BitNet
+
+BitNet 模型又增加了，来看 TII 的  Falcon-E-1B/3B 
+
+据官方说这个模型性能与 Qwen3-1.7B 相当，但内存占用仅有 Qwen3-1.7B 的 1/4 
+
+如果有同学不知道什么是 BitNet, 它是微软推出的原生 1bit 精度模型框架, 用于推理 1bit 模型
+
+另外 TII 还发布了微调库，可以自己微调，只用N卡就行：github.com/tiiuae/onebitllms
+模型地址：huggingface.co/collections/tiiuae/falcon-edge-series-6804fd13344d6d8a8fa71130
+Blog地址：falcon-lm.github.io/blog/falcon-edge/
+在线体验 falcon 模型：chat.falconllm.tii.ae
+
+## Google
+谷歌发布了一个开源安卓应用，专门跑他们的本地模型#ai创造营# 
+- 完全离线使用
+- 支持多模态理解
+可以直接试用前几天发布的端侧多模态模型 Gemma 3n
+
+1️⃣首先在这里下载应用的 APK 文件：github.com/google-ai-edge/gallery/releases/tag/1.0.3
+2️⃣安装之后选择一个模型下载
+3️⃣下载的时候会跳转 huggingface，需要同意那个协议
+4️⃣之后关闭页面，模型会自动开始下载
+
+我的手机是小米 15，试了一下速度还挺快的可以接受，多模态识别也很准确，没有其他端侧模型的偷懒问题，不过 Gemma 3n 那个 4G 的模型 CPU 跑起来温度提的很快。
 
 # RAG
 
