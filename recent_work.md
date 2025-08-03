@@ -218,6 +218,9 @@ Warp 发布 2.0 Agentic 开发环境#ai创造营#
 智能体可自动搜索整个代码库、调用 CLI 工具、查阅 Warp Drive 文档、利用 MCP 服务器获取上下文。 http://t.cn/A6DGrxGY
 
 
+## Flowith
+https://flowith.io/
+
 
 
 
