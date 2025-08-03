@@ -177,6 +177,66 @@ https://arxiv.org/abs/2507.13334 \
 论文：arxiv.org/abs/2507.13334
 
 
+# RAG
+
+🔥别再说RAG过时了！是你没抓住核心——多模态RAG才是解锁上下文神器的关键！
+
+✅ 它能同时处理文本、图像、音频、视频，让AI像人类一样跨维度推理，输出更精准、更丰富的答案！
+
+📌 为什么颠覆传统？
+🔹 纯文本RAG无法理解现实世界的多模态信息（如：医疗报告+CT扫描图）
+🔹 多模态RAG可直接响应复杂请求，例如：“展示新能源汽车充电桩实拍图并解释工作原理”💡
+
+🚀 实战案例演示
+👉 分步构建教程：http://t.cn/A6rtuRo6（自动转短链）
+👉 5分钟搭建视频：http://t.cn/A6rtu123（自动转短链）
+
+🚀 关键验证：
+👉超越文本限制
+你完全正确，纯文本RAG限制了上下文。多模态摄取（图像、音频、视频）反映了现实世界的数据复杂性，从而实现了更丰富的语义理解，例如将医学扫描与诊断研究论文进行交叉引用。
+👉类人推理
+结合模式允许人工智能以人类自然的方式“连接点”（例如，在引用相关新闻的同时描述视频场景）。这弥合了结构化数据和感官上下文之间的差距。
+👉动态输出
+你给出的例子——比如为可再生能源查询生成信息图表+摘要——展示了当用户收到综合答案而不是零散的链接时，响应效用是如何飙升的。
+👉实用可扩展性
+您的视频链接展示了快速部署（几分钟解决了采用障碍。Unstructured.io等用于多模式预处理或CLIP/ViT嵌入的工具现在可以在没有大量基础设施的情况下实现这一点。
+
+⚠️ 但非万灵丹:多模态RAG只有在检索骨干网稳健的情况下才能提高准确性。如果对齐不受限制（例如，用于跨模态基础的对比学习），噪声多模态数据比文本更能产生幻觉。
+
+🛠️ 成本/计算权衡:视频/音频索引需要比文本多10-100倍的存储/计算。战略性混合方法（例如，首先提取关键帧/ASR转录本）通常会优化成本。
+
+可采取的后续步骤：
+您的资源:
+研究了指南（多模态RAG框架）——晚期融合与早期融合架构的出色分解。
+现在观看视频教程（YouTube演示）。端到端的LlamaIndex+CLIP实现是🔥 用于快速POC。
+实验运行:
+#伪码：多模RAG流水线
+
+# Pseudocode: Multimodal RAG pipeline
+multimodal_retriever = MultiVectorRetriever(
+    text_embedder=OpenAIEmbeddings(),
+    image_embedder=CLIPEmbedder(),
+    fusion_strategy="weighted_concatenation"  # Your guide's Method 3
+)
+response = Gemini().generate(
+    query="Show urban sustainability projects",
+    retrieved_items=multimodal_retriever.fetch("solar_farms.mp4 + policy_docs.pdf")
+)
+# Outputs: Video clips + PDF summaries + generated analysis
+
+💡社区提问:
+您是否使用以下指标对准确性增益进行了基准测试平均倒数排名 对于多模式还是纯文本RAG？我很乐意引用你的结果。
+
+这不仅仅是一次升级，更是一次范式转变。您的工作验证了RAG的下一个前沿是跨模式的上下文编排。赞扬这一贡献🙌. 让我们对这些混合检索策略进行压力测试
+
+💡 马上体验革命性升级，让AI真正听懂你的需求！
+→ 关注 @智能时刻 获取每日AI黑科技
+→ 加入【智能时刻的铁粉群】http://t.cn/A6rtuRo6 交流实战技巧
+
+#AI创造营 #ai探索计划 #AI学习营 #AI打工人 #热点科普
+🔥 评论区喊出你最想破解的多模态难题！👇
+
+
 
 # MCP
 
